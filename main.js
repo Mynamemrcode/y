@@ -34,10 +34,10 @@ if(width < 992) {
         ctx.lineWidth = 5;
         
    
-        ctx.moveTo(last_posofx, last_posofsy);
+        ctx.moveTo(last_posofx, last_posofy);
         ctx.lineTo(current_posofx, current_posofy);
         ctx.stroke();
          last_posofx = current_posofx; 
-        last_posofy = current_posofsy;
+        last_posofy = current_posofy;
     
     }
